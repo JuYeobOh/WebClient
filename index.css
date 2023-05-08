@@ -1,29 +1,29 @@
-// 전체 폰트 설정
+/* 전체 폰트 설정 및 가운데 정렬 */
 body {
   font-family: sans-serif;
   text-align: center;
 }
 
-// 제목 스타일
+/* 제목 스타일 */
 h1 {
   font-size: 36px;
   margin-bottom: 16px;
 }
 
-// 설명 텍스트 스타일
+/* 설명 텍스트 스타일 */
 #site-description p {
   font-size: 16px;
   margin-bottom: 24px;
 }
 
-// 남은 시간 표시 스타일 
+/* 남은 시간 표시 스타일 */
 #remaining-time {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 16px;
 }
 
-// 새로고침 버튼 스타일 
+/* 새로고침 버튼 스타일 */
 #recommendation-button {
   background-color: #1E90FF;
   color: white;
@@ -40,7 +40,7 @@ h1 {
   background-color: #007FFF;
 }
 
-// 여행지 버튼 스타일 
+/* 여행지 버튼 스타일 */
 .destination-button {
   background-color: #F0F8FF;
   color: #1E90FF;
@@ -59,7 +59,7 @@ h1 {
   color: white;
 }
 
-// 선택한 여행지 목록 스타일
+/* 선택한 여행지 목록 스타일 */
 #selected-destinations {
   margin-top: 24px;
 }
