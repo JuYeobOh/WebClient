@@ -1,9 +1,9 @@
-#REACT 연결 성공
+# REACT 연결 성공
 
 # WebClient
 웹클라이언트컴퓨팅 중간 과제
 
-##추천 여행지 버튼 생성
+## 추천 여행지 버튼 생성
 ```
 function createButton(destination) {
   var button = document.createElement("button");
@@ -21,7 +21,7 @@ function createButton(destination) {
 }
 ```
 
-##조건을 만족할 때까지 반복적으로 3개씩 제시
+## 조건을 만족할 때까지 반복적으로 3개씩 제시
 ```
 function generateNewButtons() {
   var buttonsContainer = document.getElementById("buttons-container");
@@ -56,7 +56,7 @@ function generateNewButtons() {
 ```
 같은 목적지가 한번에 추천되지 않아야 하고, 이미 추천된 목적지는 다시 추천되면 안된다 .
 
-#지금까지 선택된 객체들을 나열하고, 예약하기 버튼과 연결
+# 지금까지 선택된 객체들을 나열하고, 예약하기 버튼과 연결
 ```
 function displaySelectedDestinations() {
   var selectedDestinations = recommendedDestinations;
